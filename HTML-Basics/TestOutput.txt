@@ -1,0 +1,13 @@
+ Volume in drive C is OS
+ Volume Serial Number is 1C7E-AFD9
+
+ Directory of C:\Users\Elizabeth\Desktop\Coding
+
+09/13/2022  09:27 AM    <DIR>          .
+09/13/2022  09:16 AM    <DIR>          ..
+09/12/2022  11:14 AM    <DIR>          DI-Bootcamp-Stage1
+09/11/2022  09:28 AM    <DIR>          Self_Practice_Prior_to_course
+09/13/2022  09:26 AM                43 Test.txt
+09/13/2022  09:27 AM                 0 TestOutput.txt
+               2 File(s)             43 bytes
+               4 Dir(s)  36,396,552,192 bytes free
