@@ -1,29 +1,49 @@
 body {
-    margin: 20 5 20 5;
+    margin: 30 50;
     background-color: #0F1113;  
 }
 
 .container {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .container_timeline{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  border: solid white 5px;
+    
+}
+
+/* image div is inline block*/
+
+.image{
+  display: inline-flex;  
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border:solid white 5px;
+  padding: 5px;
+  transition: all 1s;
 }
 
 .container_timeline img{
+    display: inline-block;  
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 5px;
+    border:solid white 5px;
+    padding: 5px;
     transition: all 1s;
+
 }
 
 #text{
     text-align:justify;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -119,3 +139,9 @@ img:hover {
   .timeline{
     text-align: left;
   }
+
+#mainabout{
+  margin: 20 40;
+  padding: 20px;
+  width: 800px;
+}
